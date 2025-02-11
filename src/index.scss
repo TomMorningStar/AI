@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  color: white;
+  box-sizing: border-box;
+  font-family: "Roboto", serif;
+}
+
+body {
+  background-image: url('./assets/backround.png');
+	background-size: cover;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+}
+
+.main {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+
+  @media (max-width: 768px) {
+    padding: 15px;
+	}
+}

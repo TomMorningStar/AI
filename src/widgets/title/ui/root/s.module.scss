@@ -1,0 +1,22 @@
+.logo {
+	display: flex;
+	justify-content: center;
+
+	img {
+		width: 30%;
+	}
+}
+
+.text {
+	width: 390px;
+	font-size: 20px;
+	font-weight: 600;
+	margin: auto;
+	text-align: center;
+
+	@media (max-width: 768px) {
+		font-size: 14px;
+		margin: 20px 0;
+		width: auto;
+	}
+}

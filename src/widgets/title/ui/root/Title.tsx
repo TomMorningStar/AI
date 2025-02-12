@@ -1,5 +1,5 @@
+import logo from '@/assets/Logo.svg'
 import React from 'react'
-import logo from '../../../../assets/logo.svg'
 
 import s from './s.module.scss'
 
